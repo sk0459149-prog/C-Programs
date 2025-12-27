@@ -1,0 +1,14 @@
+#include<stdio.h>
+int test_fn(int arg1,int arg2);
+int main(){
+    int a=10,b=12;
+    printf("This is main function before function call-%d,%d\n",a,b);
+    int ret=test_fn(a,b);
+    printf("This is Main function after function call-%d,%d\n",a,b);
+    return 0;
+}
+int test_fn(int arg1,int arg2){
+    arg1=20;arg2=30;
+    printf("This is test function-%d,%d\n",arg1,arg2);
+    return 0;
+}
