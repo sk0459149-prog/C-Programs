@@ -16,3 +16,4 @@ int main(){
     printf("%d",totalTriplets);
     return 0;
     }
+ 
